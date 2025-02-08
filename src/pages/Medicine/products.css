@@ -1,0 +1,18 @@
+.box1{
+    margin-top: 2%;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 20px;
+    padding: 3;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+.photo{
+    height: 1000%;
+}
+.heading{
+    margin-top: 2%;
+    margin-left: 45%;
+}

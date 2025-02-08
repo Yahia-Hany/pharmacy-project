@@ -1,0 +1,79 @@
+.containerf{
+    margin-top: 2%;
+    width: 100%;
+
+}
+.containerf .footer_main{
+    width: 100%;
+    background-color:rgb(120, 2, 198);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.containerf .footer_main .tag{
+    margin: 10px 0;
+}
+.containerf .footer_main .tag .center{
+    text-align: center;
+}
+.containerf .footer_main .tag h1{
+    font-size: 25px;
+    margin: 25px 0 ;
+}
+.containerf .footer_main .tag a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 9px 0;
+}
+.containerf .footer_main .tag a:hover{
+    color: rgb(204, 110, 255);
+}
+.containerf .footer_main .tag a ,i{
+    padding: 0 10px;
+    transition: 0.3;
+    color: white;
+}
+.containerf .footer_main .tag a #s:hover{
+    color: rgb(204, 110, 255);
+}
+.containerf .footer_main .tag .social{
+    display: flex;
+}
+.containerf .footer_main .tag .social a{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 0 20px 10px rgba(0,0,0,0.05);
+    position: relative;
+    margin: 0 5px;
+    z-index: 10;
+    overflow: hidden;
+}
+.containerf .footer_main .tag .social a .fa-brands{
+    font-size: 15px;
+    line-height: 30px;
+    z-index: 10;
+    position: relative;
+    transition: 0.5s;
+}
+.containerf .footer_main .tag .social a:hover i{
+color: white;
+}
+.containerf .footer_main .tag .social a::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -90px;
+    background: linear-gradient(-45deg,rgb(243, 179, 211),rgb(131, 0, 201));
+    position: absolute;
+    z-index: -10;
+    transition: 0.5s;
+}
+.containerf .footer_main .tag .social a:hover::after{
+    left: 0;
+}

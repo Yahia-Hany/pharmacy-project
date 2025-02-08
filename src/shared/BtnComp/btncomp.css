@@ -1,0 +1,17 @@
+
+.menubtn button{
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border: 3px solid white;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background-image: linear-gradient(to right,rgb(185, 80, 255),rgb(120, 3, 198),rgb(185, 80, 255));
+}
+.menubtn button:hover{
+    background:rgb(131, 39, 193);
+    color: white;
+    font-size: 1.1em;
+}
